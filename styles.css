@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+.navBarList nav ul{
+    list-style: none;
+    display: flex;
+}
+.navBarList nav ul li{
+    margin-left: 10px;
+}
